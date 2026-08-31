@@ -2,12 +2,15 @@ SIFT is a computational tool that distinguishes intolerant from tolerant amino a
 
 SIFT begins its analysis with a query protein sequence and searches similar sequences from protein database such as SWISS-PROT, based on the observation that proteins with common ancestors tend to have similar sequences. The retrieved sequences are grouped if they share >90% identity in the aligned regions and a consensus sequence is generated for each group by selecting the most frequently occurring amino acids at each position. MOTIF algorithm (Henikoff & Henikoff, 1991; Smith & Smith, 1990) identifies conserved regions in the consensus sequence by comparing them to the query sequence. Conserved regions that share >90% identity are further grouped. A PSI-BLAST check point file is generated incorporating these conserved and consensus sequences serving as the starting dataset. Additional conserved sequences are incorporated to this only if they do not decrease conservation in the conserved region (Rc). Conservation at a given position c is quantified using:
 
-Rc = log220 - Ʃ20aa pcalogpca$
+$$
+R_c = \log_2 20 - \sum_{a=1}^{20} p_a \log_2 p_a
+$$
 
 After multiple iteration highly conserved sequences tend to align globally with the query protein. The PSI-BLAST alignments are converted into a position specific scoring matrix (PSSM), which is lx20 matrix where l represents sequence length. Each matrix entry, pca, represents the probability of amino acid a at position c and is calculated as
 
-Pca = Nc/(Nc+Bc) *gca + Bc/(Nc+Bc) *fca$
-
+$$
+P_{ca} = \frac{N_c}{N_c + B_c}G_{ca} + \frac{B_c}{N_c + B_c}F_{ca}
+$$
 Where Nc is total number of sequences in alignment, gca is the sequence weighted frequency. fca represents pseudocounts (calculated from a 13-component Dirichlet mixture), and Bc is the total number of pseudocounts.
 
 SIFT provided better performance than substitution scoring matrix BLOSSUM62 (Cargill et al., 1999) when tested against experimental data sets, where mutagenesis was performed across the entire protein including LacI (Markiewicz et al., 1994), HIV 1 Protease (Loeb et al., 1989) and Bacteriophage T4 lysozyme (Rennell et al., 1991). To streamline SIFT’s automation a single cutoff is applied to all PSSM columns. In order to avoid misclassification of highly variable positions as deleterious, pca values are normalized using consensus amino acid in each column. Positions with normalized probabilities below 0.05 are predicted to be deleterious, while those greater than or equal to 0.05 are predicted to be tolerated (Sim et al., 2012).
