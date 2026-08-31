@@ -24,12 +24,12 @@ Henikoff, S., & Henikoff, J. G. (1991). Automated assembly of protein blocks for
 
 Smith, R. F., & Smith, T. F. (1990). Automatic generation of primary sequence patterns from sets of related protein sequences. Proceedings of the National Academy of Sciences, 87(1), 118–122. https://doi.org/10.1073/pnas.87.1.118
 
-Cargill M, Altshuler D, Ireland J, Sklar P, Ardlie K, Patil N, Lane C, Lim EP, Kalyanaraman N, Nemesh J, et al. Characterization of single-nucleotide polymorphisms in coding regions of human genes. Nat Genet. 1999;22:231–238. doi: 10.1038/10290
+Cargill, M., Altshuler, D., Ireland, J., Sklar, P., Ardlie, K., Patil, N., Lane, C. R., Lim, E. P., Kalyanaraman, N., Nemesh, J., Ziaugra, L., Friedland, L., Rolfe, A., Warrington, J., Lipshutz, R., Daley, G. Q., & Lander, E. S. (1999). Characterization of single-nucleotide polymorphisms in coding regions of human genes. Nature Genetics, 22(3), 231–238. https://doi.org/10.1038/10290 
 
-Markiewicz P, Kleina L, Cruz C, Ehret S, Miller JH. Genetic studies of the lac repressor XIV. Analysis of 4000 altered Escherichia coli lac repressors reveals essential and non-essential residues, as well as “spacers” which do not require a specific sequence. J Mol Biol. 1994;240:421–433. doi: 10.1006/jmbi.1994.1458
+Markiewicz, P., Kleina, L., Cruz, C., Ehret, S., & Miller, J. (1994). Genetic Studies of the lac Repressor. XIV. Analysis of 4000 Altered Escherichia coli lac Repressors Reveals Essential and Non-essential Residues, as well as “Spacers” which do not Require a Specific Sequence. Journal of Molecular Biology, 240(5), 421–433. https://doi.org/10.1006/jmbi.1994.1458
 
-Loeb DD, Swanstrom R, Everitt L, Manchester M, Stamper SE, Hutchison CA., III Complete mutagenesis of the HIV-1 protease. Nature. 1989;340:397–400. doi: 10.1038/340397a0 
+Loeb, D. D., Swanstrom, R., Everitt, L., Manchester, M., Stamper, S. E., & Hutchison, C. A. (1989). Complete mutagenesis of the HIV-1 protease. Nature, 340(6232), 397–400. https://doi.org/10.1038/340397a0
 
-Rennell D, Bouvier SE, Hardy LW, Poteete AR. Systematic mutation of bacteriophage T4 lysozyme. J Mol Biol. 1991;222:67–87. doi: 10.1016/0022-2836(91)90738-r 
+Rennell, D., Bouvier, S. E., Hardy, L. W., & Poteete, A. R. (1991). Systematic mutation of bacteriophage T4 lysozyme. Journal of Molecular Biology, 222(1), 67–88. https://doi.org/10.1016/0022-2836(91)90738-r
 
 Sim, N., Kumar, P., Hu, J., Henikoff, S., Schneider, G., & Ng, P. C. (2012). SIFT web server: predicting effects of amino acid substitutions on proteins. Nucleic Acids Research, 40(W1), W452–W457. https://doi.org/10.1093/nar/gks539 
