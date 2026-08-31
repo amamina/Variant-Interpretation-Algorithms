@@ -11,6 +11,7 @@ After multiple iteration highly conserved sequences tend to align globally with 
 $$
 P_{ca} = \frac{N_c}{N_c + B_c}G_{ca} + \frac{B_c}{N_c + B_c}F_{ca}
 $$
+
 Where Nc is total number of sequences in alignment, gca is the sequence weighted frequency. fca represents pseudocounts (calculated from a 13-component Dirichlet mixture), and Bc is the total number of pseudocounts.
 
 SIFT provided better performance than substitution scoring matrix BLOSSUM62 (Cargill et al., 1999) when tested against experimental data sets, where mutagenesis was performed across the entire protein including LacI (Markiewicz et al., 1994), HIV 1 Protease (Loeb et al., 1989) and Bacteriophage T4 lysozyme (Rennell et al., 1991). To streamline SIFT’s automation a single cutoff is applied to all PSSM columns. In order to avoid misclassification of highly variable positions as deleterious, pca values are normalized using consensus amino acid in each column. Positions with normalized probabilities below 0.05 are predicted to be deleterious, while those greater than or equal to 0.05 are predicted to be tolerated (Sim et al., 2012).
