@@ -1,1 +1,6 @@
+**PhD-SNP is a predictor of human deleterious SNPs that assesses the effect of amino acid alteration using a support vector machines (SVM)-based classifier.** In the latest version, a single SVM based predictive model was designed and trained using protein sequence and profile data to enhance predictive accuracy. For a given mutation the substitution from the wild type (WT) residue to the mutant (MT) is represented as a 20-element vector, where the position corresponding to WT residue is assigned -1, while the MT residues is assigned 1. The remaining positions are set to zero. A second 20-element vector is constructed to encode the sequence environment by tracking the occurrence of amino acids within the 19-residues window surrounding the mutation site. A sequence profile is then constructed for the protein using the information. By integrating these sequence based and evolutionary features, PhD-SNP effectively determines whether a given SNP is likely to be deleterious or neutral. (Capriotti et al., 2006).
+
+References:
+
+Capriotti, E., Calabrese, R., & Casadio, R. (2006). Predicting the insurgence of human genetic diseases associated to single point protein mutations with support vector machines and evolutionary information. Bioinformatics, 22(22), 2729–2734. https://doi.org/10.1093/bioinformatics/btl423
 
