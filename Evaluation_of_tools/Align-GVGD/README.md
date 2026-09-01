@@ -1,1 +1,7 @@
+**Align-Grantham variation and Grantham deviation** is a bioinformatics tool that integrates co-occurrence analysis with modified sequence alignment and Grantham analysis to study missense substitutions. It is an extension of Grantham difference method which compares the physicochemical properties of amino acids such as composition, polarity and volume. GV measures evolutionary conservation of an amino acid in alignment and are calculated sequentially from closely to distantly related species The algorithm was devised by analyzing 452 missense substitutions in BRCA1 using data from 40,000 full sequence BRCA1 and BRCA2 tests conducted at Myriad Genetic Laboratories (MGL), aiming to determine whether these substitutions are neutral or of little clinical significance (Tavtigian et al., 2006). Align GVGD predicts the score in seven classes (C0, C15, C25, C35, C45, C55, C65) where C0 is neutral and C65 is the most deleterious.
 
+References:
+
+Tavtigian, S. V., Deffenbaugh, A. M., Yin, L., Judkins, T., Scholl, T., Samollow, P. B., De Silva, D., Zharkikh, A., & Thomas, A. (2005). Comprehensive statistical study of 452 BRCA1 missense substitutions with classification of eight recurrent substitutions as neutral. Journal of Medical Genetics, 43(4), 295–305. https://doi.org/10.1136/jmg.2005.033878
+
+Mathe, E. (2006). Computational approaches for predicting the biological effect of p53 missense mutations: a comparison of three sequence analysis based methods. Nucleic Acids Research, 34(5), 1317–1325. https://doi.org/10.1093/nar/gkj518
