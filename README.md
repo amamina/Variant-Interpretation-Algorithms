@@ -24,5 +24,5 @@ Sun, H., & Yu, G. (2019). New insights into the pathogenicity of non-synonymous 
 
 
 
-**This repository contains original written work by the author. The work may be shared for non-commercial purposes with appropriate attribution, but derivative versions or modifications may not be distributed without permission.**
+**Under CC BY-NC-ND 4.0 License © This repository contains original written work by the author. The work may be shared for non-commercial purposes with appropriate attribution, but derivative versions or modifications may not be distributed without permission.**
 
