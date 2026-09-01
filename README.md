@@ -22,5 +22,7 @@ Richards, S., Aziz, N., Bale, S., Bick, D., Das, S., Gastier-Foster, J., Grody, 
 
 Sun, H., & Yu, G. (2019). New insights into the pathogenicity of non-synonymous variants through multi-level analysis. Scientific Reports, 9(1), 1667. https://doi.org/10.1038/s41598-018-38189-9
 
+
+
 **This repository contains original written work by the author. The work may be shared for non-commercial purposes with appropriate attribution, but derivative versions or modifications may not be distributed without permission.**
 
