@@ -10,12 +10,12 @@ It uses 11 predictive features out of 19 sequence based and 13 structure based m
 1. PSIC score of wild type amino acid
 2. PSIC score difference between wild type and mutant amino acid
 Positon specific independent counts (PSIC) (Sunyaev et al., 1999) estimates the likelihood of an amino acid occupying a specific position in a protein sequence based on substitution pattern. PSIC algorithm incorporates sequence relatedness and prior probabilities from BLOSSUM 62 matrix.
-3. Sequence identity to closest homologue
-4. Congruency of the mutant allele to the multiple alignment. For each amino acid sequence identity between analyzed protein and its closest homologue is computed.
-5. CpG Context
-6. Alignment depth (excluding gaps)
-7. Change in amino acid volume between wild type and mutant type
-8. Site of the mutation residues in Pfam domain
+4. Sequence identity to closest homologue
+5. Congruency of the mutant allele to the multiple alignment. For each amino acid sequence identity between analyzed protein and its closest homologue is computed.
+6. CpG Context
+7. Alignment depth (excluding gaps)
+8. Change in amino acid volume between wild type and mutant type
+9. Site of the mutation residues in Pfam domain
 
 **Structural features:**
 
@@ -23,10 +23,14 @@ Positon specific independent counts (PSIC) (Sunyaev et al., 1999) estimates the 
 2. Change in the hydrophobic propensity
 3. Crystallographic B-factor reflecting conformational mobility of the wild type amino acid residue.
 
-Classification method is based on supervised machine learning Naïve Bayes, coupled with entropy discretization (Fayyad & Irani, 1993). This classifier has several advantages, as it is simple and does not require complex hyperparameters. It relies only on factored probabilities and smoothening, which is performed using Laplace estimator to predict the likelihood of mutation being damaging. It efficiently handles complex, mixed data types (both discrete and continuous features) and scattered missing values. A mutation is classified as “probably damaging” if its probabilistic score exceeds 0.85, and “possibly damaging” if score is above 0.15, and benign for lower scores (Adzhubei et al., 2010).
+Classification method is based on supervised machine learning Naïve Bayes, coupled with entropy discretization. This classifier has several advantages, as it is simple and does not require complex hyperparameters. It relies only on factored probabilities and smoothening, which is performed using Laplace estimator to predict the likelihood of mutation being damaging. It efficiently handles complex, mixed data types (both discrete and continuous features) and scattered missing values. A mutation is classified as “probably damaging” if its probabilistic score exceeds 0.85, and “possibly damaging” if score is above 0.15, and benign for lower scores.
 
 References:
 
+Ramensky, V. (2002). Human non-synonymous SNPs: server and survey. Nucleic Acids Research, 30(17), 3894–3900. https://doi.org/10.1093/nar/gkf493 
 
+Adzhubei, I., Jordan, D. M., & Sunyaev, S. R. (2013). Predicting functional effect of human missense mutations using PolyPhen‐2. Current Protocols in Human Genetics, 76(1), Unit7.20. https://doi.org/10.1002/0471142905.hg0720s76 
+
+Sunyaev, S. R., Eisenhaber, F., Rodchenkov, I. V., Eisenhaber, B., Tumanyan, V. G., & Kuznetsov, E. N. (1999). PSIC: profile extraction from sequence alignments with position-specific counts of independent observations. Protein Engineering Design and Selection, 12(5), 387–394. https://doi.org/10.1093/protein/12.5.387
 
 
