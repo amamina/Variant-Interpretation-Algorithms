@@ -4,7 +4,7 @@
 Next generation sequencing generates thousands of genetic variants, and researchers develop various protocols with multiple parameters in order to classify them. This work shows some efforts to the computational exploration of algorithms underlying SIFT, PolyPhen-2, CADD, PROVEAN, SNP&GO, MutationAssessor, Align-GVGD, PANTHER, P-Mut, and related tools.
 
 
-<img src="https://github.com/amamina/Variant-Interpretation-Algorithms/blob/main/pathogenicity_score_threshold.png?raw=true" width="300">
+<img src="https://github.com/amamina/Variant-Interpretation-Algorithms/blob/main/pathogenicity_score_threshold.png?raw=true" width="500">
 
 From sequencing of small DNA fragments to the identification of disease specific gene panel and today the WGS/ WES have enabled us to track the disease origin, targeted therapy and inherited diseases. The vast amount of data produced by these methods demands advanced expertise and significant computational resources to detect, analyze, and categorize genetic variants which can provide valuable scientific insights (Pereira et al., 2020).
 
