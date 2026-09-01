@@ -5,7 +5,9 @@ Next generation sequencing generates thousands of genetic variants, and research
 
 
 <div align="center">
-  <img src="https://github.com/amy/Variant-Interpretation-Algorithms/blob/main/pathogenicity_score_threshold.png?raw=true" width="650">
+  <img src="https://github.com/amamina/Variant-Interpretation-Algorithms/blob/main/pathogenicity_score_threshold.png?raw=true" width="700">
+  <br>
+  <b>Pathogenicity score threshold</b>
 </div>
 
 From sequencing of small DNA fragments to the identification of disease specific gene panel and today the WGS/ WES have enabled us to track the disease origin, targeted therapy and inherited diseases. The vast amount of data produced by these methods demands advanced expertise and significant computational resources to detect, analyze, and categorize genetic variants which can provide valuable scientific insights (Pereira et al., 2020).
