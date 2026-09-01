@@ -10,6 +10,8 @@ Next generation sequencing generates thousands of genetic variants, and research
   <b>Pathogenicity score threshold</b>
 </div>
 
+
+
 From sequencing of small DNA fragments to the identification of disease specific gene panel and today the WGS/ WES have enabled us to track the disease origin, targeted therapy and inherited diseases. The vast amount of data produced by these methods demands advanced expertise and significant computational resources to detect, analyze, and categorize genetic variants which can provide valuable scientific insights (Pereira et al., 2020).
 
 The classification of genetic variants is a complex process that requires multiple levels of evidence, as recommended by ClinGen. In large scale sequencing studies, systematic filtering is crucial for evaluating candidate variants. To exclude those unlikely to be linked to the disease of interest, various filtering criteria should be applied. These include sequencing quality control, clinical evidence, population frequency, variants position in protein and their classification as synonymous, missense, frameshift, nonsense, in-frame or stop loss etc. Since not all prediction tools assess every variant type or location, selecting an appropriate set of tools for studied variants is crucial. Given that a large number of variants in sequencing data remain of unknown clinical significance, employing computational tools can aid in their characterization (De Oliveira Garcia et al., 2022).
